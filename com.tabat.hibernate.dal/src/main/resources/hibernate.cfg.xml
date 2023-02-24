@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3308/tabatapp?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.current_session_context_class">thread</property>
+    <mapping class="com.tabat.hibernate.entities.Consumer"/>
+    <mapping class="com.tabat.hibernate.entities.ProviderUser"/>
+    <mapping class="com.tabat.hibernate.entities.Category"/>
+    <mapping class="com.tabat.hibernate.entities.Order"/>
+    <mapping class="com.tabat.hibernate.entities.Product"/>
+    <mapping class="com.tabat.hibernate.entities.AdminUser"/>
+    <mapping class="com.tabat.hibernate.entities.City"/>
+    <mapping class="com.tabat.hibernate.entities.Area"/>
+    <mapping class="com.tabat.hibernate.entities.OrderItem"/>
+    <mapping class="com.tabat.hibernate.entities.ConsumerAddress"/>
+    <mapping class="com.tabat.hibernate.entities.Provider"/>
+  </session-factory>
+</hibernate-configuration>

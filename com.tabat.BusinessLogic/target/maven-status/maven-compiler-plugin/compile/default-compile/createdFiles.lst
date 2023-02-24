@@ -1,0 +1,6 @@
+com\tabat\BusinessLogicCore\BusinessLogicCore.class
+com\tabat\businesslogic\IMPL\MenuModelImpl.class
+tester2\tt.class
+com\tabat\businesslogic\IMPL\BranchModuleImpl.class
+com\tabat\businesslogic\interfacesOutil\MenuModel.class
+com\tabat\businesslogic\interfacesOutil\BranchesModel.class
